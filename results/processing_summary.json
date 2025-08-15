@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "total_documents": 11,
+    "successful": 11,
+    "failed": 0,
+    "success_rate": 100.0,
+    "average_processing_time": 146.7339811108329,
+    "average_confidence": 0.0
+  },
+  "field_extraction_rates": {
+    "borrowers": 0.0,
+    "loan_amount": 0.0,
+    "recording_date": 0.0,
+    "recording_location": 0.0,
+    "lender_name": 0.0,
+    "lender_nmls_id": 0.0,
+    "broker_name": 0.0,
+    "loan_originator_name": 0.0,
+    "loan_originator_nmls_id": 0.0
+  },
+  "processing_timestamp": 1755220491.979651,
+  "individual_results": [
+    {
+      "document": "09e22507-7f3d-438c-aa16-10c048de74bd-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 133.6598834991455,
+      "error": null
+    },
+    {
+      "document": "1aa1f937-6125-415b-a91c-dc90236cc226-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 142.07526969909668,
+      "error": null
+    },
+    {
+      "document": "22b25613-6227-4bc4-84e4-07d4c1a3d7d9-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 137.2611963748932,
+      "error": null
+    },
+    {
+      "document": "40d0d5a2-4092-42a7-964a-fa3f327c36fc-tusi_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 158.64362788200378,
+      "error": null
+    },
+    {
+      "document": "47795d39-3a95-4897-a67b-e718418e8280-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 144.64660215377808,
+      "error": null
+    },
+    {
+      "document": "5a7f17e3-bb1a-44b4-8dbb-1bca3bcae990-tusi_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 188.43125987052917,
+      "error": null
+    },
+    {
+      "document": "775756e0-fc28-4da1-a9de-999c9df71131-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 142.0994746685028,
+      "error": null
+    },
+    {
+      "document": "7b70f220-4a89-4964-853c-1e5cebde2b0e-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 139.82355666160583,
+      "error": null
+    },
+    {
+      "document": "9f35c5af-f739-430a-a68b-88747908fdc7-tusi_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 156.89799404144287,
+      "error": null
+    },
+    {
+      "document": "abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 133.31112408638,
+      "error": null
+    },
+    {
+      "document": "document",
+      "status": "success",
+      "confidence": 0.0,
+      "processing_time": 137.22380328178406,
+      "error": null
+    }
+  ]
+}

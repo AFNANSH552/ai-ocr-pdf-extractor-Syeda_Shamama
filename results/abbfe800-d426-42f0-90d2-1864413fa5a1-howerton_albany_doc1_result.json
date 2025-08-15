@@ -1,0 +1,121 @@
+{
+  "document_name": "abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1",
+  "pdf_path": "sample_pdfs\\abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1.pdf",
+  "processing_start": 1755220221.435435,
+  "stages": {
+    "pdf_conversion": {
+      "status": "success",
+      "pages_converted": 14,
+      "processing_time": 39.887123107910156
+    },
+    "ocr_processing": {
+      "status": "success",
+      "text_length": 82187,
+      "confidence": 76.04094811243623,
+      "engine": "Tesseract",
+      "processing_time": 93.33671689033508
+    },
+    "ai_extraction": {
+      "status": "success",
+      "strategy_used": "full_document",
+      "confidence": 0.0,
+      "attempts": 0,
+      "processing_time": 0.003904581069946289,
+      "errors": [
+        "'ExtractionStrategies' object has no attribute 'get_full_document_strategy'"
+      ]
+    },
+    "validation": {
+      "status": "success",
+      "confidence": 0.0,
+      "is_valid": false,
+      "issues_count": 8,
+      "processing_time": 0.05772829055786133
+    }
+  },
+  "final_data": {
+    "borrowers": null,
+    "loan_amount": null,
+    "recording_date": null,
+    "recording_location": null,
+    "lender_name": null,
+    "lender_nmls_id": null,
+    "broker_name": null,
+    "loan_originator_name": null,
+    "loan_originator_nmls_id": null
+  },
+  "quality_report": {
+    "overall_score": 0.0,
+    "is_valid": false,
+    "completeness": 0.0,
+    "field_breakdown": {
+      "high_confidence": [
+        "broker_name"
+      ],
+      "medium_confidence": [],
+      "low_confidence": [
+        "borrowers",
+        "loan_amount",
+        "recording_date",
+        "recording_location",
+        "lender_name",
+        "lender_nmls_id",
+        "loan_originator_name",
+        "loan_originator_nmls_id"
+      ]
+    },
+    "issues_found": [
+      "borrowers: Missing or invalid data",
+      "loan_amount: Missing or invalid data",
+      "recording_date: Missing or invalid data",
+      "recording_location: Missing or invalid data",
+      "lender_name: Missing or invalid data",
+      "lender_nmls_id: Missing or invalid data",
+      "loan_originator_name: Missing or invalid data",
+      "loan_originator_nmls_id: Missing or invalid data"
+    ],
+    "recommendations": [
+      "Review low confidence fields: borrowers, loan_amount, recording_date, recording_location, lender_name, lender_nmls_id, loan_originator_name, loan_originator_nmls_id",
+      "Borrower information is missing - critical field",
+      "Loan amount is missing - critical field",
+      "Lender name is missing - critical field",
+      "Consider manual review due to low overall confidence"
+    ],
+    "field_scores": {
+      "borrowers": 0.0,
+      "loan_amount": 0.0,
+      "recording_date": 0.0,
+      "recording_location": 0.0,
+      "lender_name": 0.0,
+      "lender_nmls_id": 0.0,
+      "broker_name": 100.0,
+      "loan_originator_name": 0.0,
+      "loan_originator_nmls_id": 0.0
+    }
+  },
+  "validation_details": {
+    "issues": [
+      "borrowers: Missing or invalid data",
+      "loan_amount: Missing or invalid data",
+      "recording_date: Missing or invalid data",
+      "recording_location: Missing or invalid data",
+      "lender_name: Missing or invalid data",
+      "lender_nmls_id: Missing or invalid data",
+      "loan_originator_name: Missing or invalid data",
+      "loan_originator_nmls_id: Missing or invalid data"
+    ],
+    "field_scores": {
+      "borrowers": 0.0,
+      "loan_amount": 0.0,
+      "recording_date": 0.0,
+      "recording_location": 0.0,
+      "lender_name": 0.0,
+      "lender_nmls_id": 0.0,
+      "broker_name": 100.0,
+      "loan_originator_name": 0.0,
+      "loan_originator_nmls_id": 0.0
+    }
+  },
+  "total_processing_time": 133.31112408638,
+  "status": "success"
+}

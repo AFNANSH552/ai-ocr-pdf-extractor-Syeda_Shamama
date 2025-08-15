@@ -1,0 +1,272 @@
+2025-08-15 06:15:49,567 - __main__ - INFO - Starting AI-Powered OCR PDF Data Extraction
+2025-08-15 06:15:49,577 - ai_extractor - INFO - AI Extractor initialized with gemini-pro
+2025-08-15 06:15:49,577 - __main__ - INFO - Processor initialized successfully
+2025-08-15 06:15:49,577 - __main__ - INFO - Starting single file processing: sample_pdfs/document.pdf
+2025-08-15 06:15:49,577 - __main__ - INFO - Starting processing of document
+2025-08-15 06:15:49,577 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:15:49,577 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs/document.pdf
+2025-08-15 06:16:12,775 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:16:12,775 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:16:12,775 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:16:12,775 - __main__ - ERROR - Processing failed: 'PpmImageFile' object has no attribute 'read'
+2025-08-15 06:16:12,775 - __main__ - INFO - Processing completed in 23.20s
+2025-08-15 06:17:57,814 - __main__ - INFO - Starting AI-Powered OCR PDF Data Extraction
+2025-08-15 06:17:57,826 - ai_extractor - INFO - AI Extractor initialized with gemini-pro
+2025-08-15 06:17:57,826 - __main__ - INFO - Processor initialized successfully
+2025-08-15 06:17:57,827 - __main__ - INFO - Starting batch processing of directory: sample_pdfs/
+2025-08-15 06:17:57,827 - __main__ - INFO - Found 11 PDF files to process
+2025-08-15 06:17:57,828 - __main__ - INFO - Processing file 1/11: 09e22507-7f3d-438c-aa16-10c048de74bd-howerton_albany_doc1.pdf
+2025-08-15 06:17:57,828 - __main__ - INFO - Starting processing of 09e22507-7f3d-438c-aa16-10c048de74bd-howerton_albany_doc1
+2025-08-15 06:17:57,828 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:17:57,828 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\09e22507-7f3d-438c-aa16-10c048de74bd-howerton_albany_doc1.pdf
+2025-08-15 06:18:17,533 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:18:36,174 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:18:36,174 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:20:11,472 - __main__ - INFO - Saved OCR text to results\09e22507-7f3d-438c-aa16-10c048de74bd-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:20:11,472 - __main__ - INFO - OCR completed with 76.0% confidence
+2025-08-15 06:20:11,472 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:20:11,472 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:20:11,472 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:20:11,488 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:20:11,488 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:20:11,488 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:20:11,488 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:20:11,488 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:20:11,488 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:20:11,488 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:20:11,488 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:20:11,488 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:20:11,488 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:20:11,488 - __main__ - INFO - Processing completed in 133.66s
+2025-08-15 06:20:11,488 - __main__ - INFO - Processing file 2/11: 1aa1f937-6125-415b-a91c-dc90236cc226-howerton_albany_doc1.pdf
+2025-08-15 06:20:11,488 - __main__ - INFO - Starting processing of 1aa1f937-6125-415b-a91c-dc90236cc226-howerton_albany_doc1
+2025-08-15 06:20:11,488 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:20:11,488 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\1aa1f937-6125-415b-a91c-dc90236cc226-howerton_albany_doc1.pdf
+2025-08-15 06:20:33,494 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:20:54,043 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:20:54,044 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:22:33,553 - __main__ - INFO - Saved OCR text to results\1aa1f937-6125-415b-a91c-dc90236cc226-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:22:33,554 - __main__ - INFO - OCR completed with 76.8% confidence
+2025-08-15 06:22:33,554 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:22:33,555 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:22:33,555 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:22:33,556 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:22:33,557 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:22:33,557 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:22:33,558 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:22:33,558 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:22:33,559 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:22:33,560 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:22:33,560 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:22:33,561 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:22:33,562 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:22:33,563 - __main__ - INFO - Processing completed in 142.08s
+2025-08-15 06:22:33,566 - __main__ - INFO - Processing file 3/11: 22b25613-6227-4bc4-84e4-07d4c1a3d7d9-howerton_albany_doc1.pdf
+2025-08-15 06:22:33,566 - __main__ - INFO - Starting processing of 22b25613-6227-4bc4-84e4-07d4c1a3d7d9-howerton_albany_doc1
+2025-08-15 06:22:33,570 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:22:33,571 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\22b25613-6227-4bc4-84e4-07d4c1a3d7d9-howerton_albany_doc1.pdf
+2025-08-15 06:22:54,228 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:23:13,018 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:23:13,018 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:24:50,812 - __main__ - INFO - Saved OCR text to results\22b25613-6227-4bc4-84e4-07d4c1a3d7d9-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:24:50,812 - __main__ - INFO - OCR completed with 76.0% confidence
+2025-08-15 06:24:50,812 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:24:50,812 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:24:50,812 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:24:50,812 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:24:50,812 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:24:50,827 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:24:50,827 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:24:50,827 - __main__ - INFO - Processing completed in 137.26s
+2025-08-15 06:24:50,827 - __main__ - INFO - Processing file 4/11: 40d0d5a2-4092-42a7-964a-fa3f327c36fc-tusi_albany_doc1.pdf
+2025-08-15 06:24:50,827 - __main__ - INFO - Starting processing of 40d0d5a2-4092-42a7-964a-fa3f327c36fc-tusi_albany_doc1
+2025-08-15 06:24:50,827 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:24:50,827 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\40d0d5a2-4092-42a7-964a-fa3f327c36fc-tusi_albany_doc1.pdf
+2025-08-15 06:25:29,593 - utils.pdf_converter - INFO - Successfully converted 20 pages
+2025-08-15 06:25:56,305 - __main__ - INFO - Converted 20 pages
+2025-08-15 06:25:56,306 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:27:29,463 - __main__ - INFO - Saved OCR text to results\40d0d5a2-4092-42a7-964a-fa3f327c36fc-tusi_albany_doc1_ocr_text.txt
+2025-08-15 06:27:29,464 - __main__ - INFO - OCR completed with 79.1% confidence
+2025-08-15 06:27:29,464 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:27:29,464 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:27:29,464 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:27:29,464 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:27:29,464 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:27:29,464 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:27:29,464 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:27:29,464 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:27:29,464 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:27:29,468 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:27:29,468 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:27:29,469 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:27:29,470 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:27:29,471 - __main__ - INFO - Processing completed in 158.64s
+2025-08-15 06:27:29,472 - __main__ - INFO - Processing file 5/11: 47795d39-3a95-4897-a67b-e718418e8280-howerton_albany_doc1.pdf
+2025-08-15 06:27:29,475 - __main__ - INFO - Starting processing of 47795d39-3a95-4897-a67b-e718418e8280-howerton_albany_doc1
+2025-08-15 06:27:29,478 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:27:29,479 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\47795d39-3a95-4897-a67b-e718418e8280-howerton_albany_doc1.pdf
+2025-08-15 06:27:52,407 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:28:12,216 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:28:12,216 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:29:54,114 - __main__ - INFO - Saved OCR text to results\47795d39-3a95-4897-a67b-e718418e8280-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:29:54,115 - __main__ - INFO - OCR completed with 76.8% confidence
+2025-08-15 06:29:54,115 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:29:54,115 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:29:54,116 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:29:54,116 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:29:54,116 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:29:54,117 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:29:54,117 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:29:54,117 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:29:54,117 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:29:54,117 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:29:54,118 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:29:54,119 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:29:54,119 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:29:54,119 - __main__ - INFO - Processing completed in 144.65s
+2025-08-15 06:29:54,119 - __main__ - INFO - Processing file 6/11: 5a7f17e3-bb1a-44b4-8dbb-1bca3bcae990-tusi_albany_doc1.pdf
+2025-08-15 06:29:54,119 - __main__ - INFO - Starting processing of 5a7f17e3-bb1a-44b4-8dbb-1bca3bcae990-tusi_albany_doc1
+2025-08-15 06:29:54,126 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:29:54,126 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\5a7f17e3-bb1a-44b4-8dbb-1bca3bcae990-tusi_albany_doc1.pdf
+2025-08-15 06:30:32,471 - utils.pdf_converter - INFO - Successfully converted 20 pages
+2025-08-15 06:30:59,804 - __main__ - INFO - Converted 20 pages
+2025-08-15 06:30:59,804 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:33:02,450 - __main__ - INFO - Saved OCR text to results\5a7f17e3-bb1a-44b4-8dbb-1bca3bcae990-tusi_albany_doc1_ocr_text.txt
+2025-08-15 06:33:02,463 - __main__ - INFO - OCR completed with 79.1% confidence
+2025-08-15 06:33:02,463 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:33:02,463 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:33:02,463 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:33:02,463 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:33:02,479 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:33:02,529 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:33:02,529 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:33:02,529 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:33:02,543 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:33:02,543 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:33:02,543 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:33:02,550 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:33:02,550 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:33:02,550 - __main__ - INFO - Processing completed in 188.43s
+2025-08-15 06:33:02,569 - __main__ - INFO - Processing file 7/11: 775756e0-fc28-4da1-a9de-999c9df71131-howerton_albany_doc1.pdf
+2025-08-15 06:33:02,569 - __main__ - INFO - Starting processing of 775756e0-fc28-4da1-a9de-999c9df71131-howerton_albany_doc1
+2025-08-15 06:33:02,575 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:33:02,575 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\775756e0-fc28-4da1-a9de-999c9df71131-howerton_albany_doc1.pdf
+2025-08-15 06:33:26,160 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:33:45,538 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:33:45,554 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:35:24,668 - __main__ - INFO - Saved OCR text to results\775756e0-fc28-4da1-a9de-999c9df71131-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:35:24,668 - __main__ - INFO - OCR completed with 76.0% confidence
+2025-08-15 06:35:24,668 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:35:24,668 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:35:24,668 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:35:24,668 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:35:24,668 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:35:24,668 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:35:24,668 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:35:24,668 - __main__ - INFO - Processing completed in 142.10s
+2025-08-15 06:35:24,679 - __main__ - INFO - Processing file 8/11: 7b70f220-4a89-4964-853c-1e5cebde2b0e-howerton_albany_doc1.pdf
+2025-08-15 06:35:24,679 - __main__ - INFO - Starting processing of 7b70f220-4a89-4964-853c-1e5cebde2b0e-howerton_albany_doc1
+2025-08-15 06:35:24,685 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:35:24,685 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\7b70f220-4a89-4964-853c-1e5cebde2b0e-howerton_albany_doc1.pdf
+2025-08-15 06:35:46,131 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:36:04,680 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:36:04,680 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:37:44,502 - __main__ - INFO - Saved OCR text to results\7b70f220-4a89-4964-853c-1e5cebde2b0e-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:37:44,502 - __main__ - INFO - OCR completed with 76.0% confidence
+2025-08-15 06:37:44,502 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:37:44,502 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:37:44,502 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:37:44,502 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:37:44,502 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:37:44,502 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:37:44,502 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:37:44,502 - __main__ - INFO - Processing completed in 139.82s
+2025-08-15 06:37:44,519 - __main__ - INFO - Processing file 9/11: 9f35c5af-f739-430a-a68b-88747908fdc7-tusi_albany_doc1.pdf
+2025-08-15 06:37:44,521 - __main__ - INFO - Starting processing of 9f35c5af-f739-430a-a68b-88747908fdc7-tusi_albany_doc1
+2025-08-15 06:37:44,521 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:37:44,521 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\9f35c5af-f739-430a-a68b-88747908fdc7-tusi_albany_doc1.pdf
+2025-08-15 06:38:22,047 - utils.pdf_converter - INFO - Successfully converted 20 pages
+2025-08-15 06:38:48,884 - __main__ - INFO - Converted 20 pages
+2025-08-15 06:38:48,884 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:40:21,413 - __main__ - INFO - Saved OCR text to results\9f35c5af-f739-430a-a68b-88747908fdc7-tusi_albany_doc1_ocr_text.txt
+2025-08-15 06:40:21,417 - __main__ - INFO - OCR completed with 79.1% confidence
+2025-08-15 06:40:21,417 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:40:21,417 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:40:21,417 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:40:21,417 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:40:21,417 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:40:21,417 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:40:21,417 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:40:21,417 - __main__ - INFO - Processing completed in 156.90s
+2025-08-15 06:40:21,434 - __main__ - INFO - Processing file 10/11: abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1.pdf
+2025-08-15 06:40:21,435 - __main__ - INFO - Starting processing of abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1
+2025-08-15 06:40:21,435 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:40:21,439 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1.pdf
+2025-08-15 06:40:42,643 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:41:01,322 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:41:01,338 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:42:34,681 - __main__ - INFO - Saved OCR text to results\abbfe800-d426-42f0-90d2-1864413fa5a1-howerton_albany_doc1_ocr_text.txt
+2025-08-15 06:42:34,682 - __main__ - INFO - OCR completed with 76.0% confidence
+2025-08-15 06:42:34,682 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:42:34,683 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:42:34,683 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:42:34,684 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:42:34,684 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:42:34,685 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:42:34,685 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:42:34,685 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:42:34,686 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:42:34,686 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:42:34,687 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:42:34,687 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:42:34,745 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:42:34,746 - __main__ - INFO - Processing completed in 133.31s
+2025-08-15 06:42:34,750 - __main__ - INFO - Processing file 11/11: document.pdf
+2025-08-15 06:42:34,753 - __main__ - INFO - Starting processing of document
+2025-08-15 06:42:34,758 - __main__ - INFO - Stage 1: Converting PDF to images
+2025-08-15 06:42:34,760 - utils.pdf_converter - INFO - Converting PDF to images: sample_pdfs\document.pdf
+2025-08-15 06:42:56,522 - utils.pdf_converter - INFO - Successfully converted 14 pages
+2025-08-15 06:43:15,644 - __main__ - INFO - Converted 14 pages
+2025-08-15 06:43:15,644 - __main__ - INFO - Stage 2: OCR text extraction
+2025-08-15 06:44:51,963 - __main__ - INFO - Saved OCR text to results\document_ocr_text.txt
+2025-08-15 06:44:51,964 - __main__ - INFO - OCR completed with 76.0% confidence
+2025-08-15 06:44:51,964 - __main__ - INFO - Stage 3: AI-powered data extraction
+2025-08-15 06:44:51,965 - ai_extractor - INFO - Finding best extraction using multiple strategies
+2025-08-15 06:44:51,966 - ai_extractor - INFO - Executing strategy: full_document
+2025-08-15 06:44:51,967 - ai_extractor - INFO - Starting full document extraction
+2025-08-15 06:44:51,967 - ai_extractor - ERROR - Strategy full_document failed completely: 'ExtractionStrategies' object has no attribute 'get_full_document_strategy'
+2025-08-15 06:44:51,968 - ai_extractor - INFO - Executing strategy: field_by_field
+2025-08-15 06:44:51,968 - ai_extractor - INFO - Starting field-by-field extraction
+2025-08-15 06:44:51,968 - ai_extractor - ERROR - Strategy field_by_field failed completely: 'ExtractionStrategies' object has no attribute 'get_field_by_field_strategy'
+2025-08-15 06:44:51,968 - ai_extractor - INFO - Best result: full_document with 0.0% confidence
+2025-08-15 06:44:51,968 - ai_extractor - INFO - Attempting to merge results from different strategies
+2025-08-15 06:44:51,968 - __main__ - INFO - AI extraction completed using full_document with 0.0% confidence
+2025-08-15 06:44:51,971 - __main__ - INFO - Stage 4: Data validation and correction
+2025-08-15 06:44:51,973 - __main__ - INFO - Validation completed with 0.0% confidence
+2025-08-15 06:44:51,974 - __main__ - INFO - Processing completed in 137.22s
+2025-08-15 06:44:51,979 - __main__ - INFO - Batch processing completed. Summary saved to results\processing_summary.json
+2025-08-15 06:44:51,992 - __main__ - INFO - Batch processing completed. Processed 11 documents
